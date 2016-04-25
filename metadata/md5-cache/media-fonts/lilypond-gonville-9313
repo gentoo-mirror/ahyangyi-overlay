@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install
+DEPEND=media-gfx/fontforge
+DESCRIPTION=Gonville fonts for lilypond
+EAPI=5
+HOMEPAGE=http://www.chiark.greenend.org.uk/~sgtatham/gonville/
+KEYWORDS=x86 amd64
+LICENSE=GPL-2
+RDEPEND=media-gfx/fontforge
+SLOT=0
+SRC_URI=http://mirrors.ahyangyi.org/gentoo/distfiles/gonville-9313.tar.bz2
+_eclass_exported_funcs=src_compile:- src_install:-
+_md5_=07f0f65f8e28ce6904d896d997dd600f
