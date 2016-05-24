@@ -2,3 +2,4 @@ app-eselect/eselect-lilypond-font 0.9: Manages lilypond font replacements
 games-arcade/white-butterfly 1.1-r1: Shoot-em-up game with strange 8-bit pastel colours and partly random music. Three stages, five fighters, many hours of agonising frustration.
 media-fonts/lilypond-gonville 20141025 99999999: Gonville fonts for lilypond
 media-sound/lilypond 2.18.2 2.18.2-r1: GNU Music Typesetter
+sys-devel/gcc 6.1.0: The GNU Compiler Collection
