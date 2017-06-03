@@ -7,4 +7,4 @@ LICENSE=AFDKL
 SLOT=0
 SRC_URI=http://download.macromedia.com/pub/developer/opentype/FDK.2.5.65781/FDK.2.5.65781-LINUX.zip
 _eclass_exported_funcs=src_install:-
-_md5_=972d11895f3cc04ddf91d1bb3c83b1fd
+_md5_=99d8eac808c1d028f8f593348463be7d

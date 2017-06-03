@@ -4,6 +4,6 @@ games-arcade/garden-of-coloured-lights 1.02-r1: A musical shoot-em-up influenced
 games-arcade/overgod 1.0: For too long has humanity been ruled by cruel and disputatious gods! Fly through the various layers of the Celestial Oversphere to unseat those who control the universe.
 games-arcade/white-butterfly 1.1-r1 1.1-r2: Shoot-em-up game with strange 8-bit pastel colours and partly random music. Three stages, five fighters, many hours of agonising frustration.
 media-fonts/lilypond-gonville 20141025 99999999: Gonville fonts for lilypond
-media-gfx/adfko 2.5.65781: Adobe Font Development Kit for OpenType
+media-gfx/afdko 2.5.65781: Adobe Font Development Kit for OpenType
 media-sound/lilypond 2.18.2 2.18.2-r2 2.18.2-r3 2.19.48: GNU Music Typesetter
 net-misc/networkmanager-l2tp 0.9.8.7: NetworkManager L2TP plugin
