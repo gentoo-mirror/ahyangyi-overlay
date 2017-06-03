@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Adobe Font Development Kit for OpenType
+EAPI=6
+HOMEPAGE=http://www.adobe.com/devnet/opentype/afdko.html
+KEYWORDS=amd64 x86
+LICENSE=AFDKL
+SLOT=0
+SRC_URI=http://download.macromedia.com/pub/developer/opentype/FDK.2.5.65781/FDK.2.5.65781-LINUX.zip
+_eclass_exported_funcs=src_install:-
+_md5_=972d11895f3cc04ddf91d1bb3c83b1fd
