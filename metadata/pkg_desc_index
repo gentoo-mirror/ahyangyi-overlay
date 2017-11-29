@@ -17,6 +17,7 @@ dev-haskell/unbound-generics 0.3.1: Support for programming with names and binde
 dev-haskell/uu-interleaved 0.2.0.0: Providing an interleaving combinator for use with applicative/alternative style implementations
 dev-haskell/uu-parsinglib 2.9.1.1: Fast, online, error-correcting, monadic, applicative, merging, permuting, interleaving, idiomatic parser combinators
 dev-libs/caffe 9999: Deep learning framework by the BVLC
+dev-python/freetype-py 1.1: Python bindings for the freetype library
 dev-util/bazel 0.5.4: Fast and correct automated build system
 games-arcade/garden-of-coloured-lights 1.02-r1: A musical shoot-em-up influenced by rRootage, Radiant Silvergun and Rez.
 games-arcade/overgod 1.0: For too long has humanity been ruled by cruel and disputatious gods! Fly through the various layers of the Celestial Oversphere to unseat those who control the universe.
