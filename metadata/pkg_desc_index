@@ -4,4 +4,5 @@ games-arcade/overgod 1.0: For too long has humanity been ruled by cruel and disp
 games-arcade/white-butterfly 1.1-r1 1.1-r2 1.1-r3: Shoot-em-up game with strange 8-bit pastel colours and partly random music. Three stages, five fighters, many hours of agonising frustration.
 media-fonts/lilypond-gonville 20141025: Gonville fonts for lilypond
 media-gfx/afdko 2.5.65781: Adobe Font Development Kit for OpenType
+media-libs/libuninameslist 20170807: Library of unicode annotation data
 media-sound/lilypond 2.18.2 2.18.2-r3 2.19.80-r1: GNU Music Typesetter
