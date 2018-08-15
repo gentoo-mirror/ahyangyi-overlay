@@ -6,5 +6,5 @@ HOMEPAGE=http://www.chiark.greenend.org.uk/~sgtatham/gonville/
 LICENSE=GPL-2
 RDEPEND=dev-lang/python:2.7 media-gfx/fontforge media-gfx/potrace
 SLOT=0
-_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
+_eclasses_=git-r3	918d6a744039c29af2cadc7317459765
 _md5_=4f3a277ea4aee72d857450c1b6fec48c
