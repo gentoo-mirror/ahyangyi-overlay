@@ -1,7 +1,33 @@
 app-eselect/eselect-lilypond-font 0.9: Manages lilypond font replacements
+app-text/pdftk 9999: 
+app-vim/youcompleteme 99999999: vim plugin: a code-completion engine for Vim
+dev-haskell/clash-ghc 0.7.2: CAES Language for Synchronous Hardware
+dev-haskell/clash-lib 0.7.1: CAES Language for Synchronous Hardware - As a Library
+dev-haskell/clash-prelude 0.11.2: CAES Language for Synchronous Hardware - Prelude library
+dev-haskell/clash-systemverilog 0.7.2: CAES Language for Synchronous Hardware - SystemVerilog backend
+dev-haskell/clash-verilog 0.7.2: CAES Language for Synchronous Hardware - Verilog backend
+dev-haskell/clash-vhdl 0.7.2: CAES Language for Synchronous Hardware - VHDL backend
+dev-haskell/concurrent-supply 0.1.8: A fast concurrent unique identifier supply with a pure API
+dev-haskell/ghc-tcplugins-extra 0.2.1: Utilities for writing GHC type-checker plugins
+dev-haskell/ghc-typelits-extra 0.2.3: Additional type-level operations on GHC.TypeLits.Nat
+dev-haskell/ghc-typelits-knownnat 0.2.4 0.3.1: Derive KnownNat constraints from other KnownNat constraints
+dev-haskell/ghc-typelits-natnormalise 0.5.3: GHC typechecker plugin for types of kind GHC.TypeLits.Nat
+dev-haskell/singletons 2.2: A framework for generating singleton types
+dev-haskell/th-desugar 1.6 1.7: Functions to desugar Template Haskell
+dev-haskell/unbound-generics 0.3.1: Support for programming with names and binders using GHC Generics
+dev-haskell/uu-interleaved 0.2.0.0: Providing an interleaving combinator for use with applicative/alternative style implementations
+dev-haskell/uu-parsinglib 2.9.1.1: Fast, online, error-correcting, monadic, applicative, merging, permuting, interleaving, idiomatic parser combinators
+dev-libs/caffe 9999: Deep learning framework by the BVLC
+dev-libs/cudnn 7.2.1.38.9.2 7.3.0.29.9.0 7.6.0.64.9.0 7.6.0.64.9.2 7.6.0.64.10.0 7.6.0.64.10.1: NVIDIA Accelerated Deep Learning on GPU library
+dev-python/discord-py 1.1.1: An API wrapper for Discord written in Python.
+dev-python/freetype-py 1.1: Python bindings for the freetype library
+dev-python/websockets 7.0: Library for building WebSocket servers and clients in Python.
 games-arcade/garden-of-coloured-lights 1.02-r1 1.02-r2: A musical shoot-em-up influenced by rRootage, Radiant Silvergun and Rez.
 games-arcade/overgod 1.0: For too long has humanity been ruled by cruel and disputatious gods! Fly through the various layers of the Celestial Oversphere to unseat those who control the universe.
 games-arcade/white-butterfly 1.1-r1 1.1-r2 1.1-r3: Shoot-em-up game with strange 8-bit pastel colours and partly random music. Three stages, five fighters, many hours of agonising frustration.
-media-fonts/lilypond-gonville 20141025: Gonville fonts for lilypond
-media-libs/libuninameslist 20170807: Library of unicode annotation data
-media-sound/lilypond 2.18.2 2.18.2-r3 2.19.80-r1: GNU Music Typesetter
+media-fonts/lilypond-gonville 20141025 99999999: Gonville fonts for lilypond
+media-gfx/afdko 2.5.65781: Adobe Font Development Kit for OpenType
+media-libs/libuninameslist 20170807 20180408: Library of unicode annotation data
+media-sound/lilypond 2.18.2 2.18.2-r2 2.18.2-r3 2.19.54 2.19.80-r1: GNU Music Typesetter
+net-misc/google-images-download 9999: Python Script for 'searching' and 'downloading' hundreds of Google images to the local hard disk!
+net-misc/networkmanager-l2tp 0.9.8.7: NetworkManager L2TP plugin
