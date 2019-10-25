@@ -1,0 +1,13 @@
+DEFINED_PHASES=install unpack
+DEPEND=>=app-arch/rpm2targz-9.0.0.3g
+DESCRIPTION=Chat with millions of new friends on QQ.
+EAPI=7
+HOMEPAGE=https://im.qq.com/linuxqq
+KEYWORDS=-* amd64
+LICENSE=all-rights-reserved
+RDEPEND=x11-libs/libX11 dev-libs/glib x11-libs/gtk+:2 x11-libs/gdk-pixbuf:2 x11-libs/pango >=dev-libs/nss-3 >=dev-libs/nspr-4
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://qd.myapp.com/myapp/qqteam/linuxQQ/linuxqq_2.0.0-b1-1024_x86_64.rpm
+_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	rpm	f52cfa3a435468d86d3b49c357b9cb35
+_md5_=bf24b64af2b6f33572b73eef28333a12
