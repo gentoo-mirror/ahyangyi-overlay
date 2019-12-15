@@ -7,5 +7,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=dev-lang/python:2.7 media-gfx/fontforge media-gfx/potrace
 SLOT=0
-_eclasses_=git-r3	6d22636df236df4cc8475f7b7668bdcd
+_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b
 _md5_=4f3a277ea4aee72d857450c1b6fec48c
