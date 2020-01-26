@@ -1,25 +1,24 @@
 diff --git a/Makefile b/Makefile
 new file mode 100644
-index 0000000..02841b4
+index 0000000..03ee57f
 --- /dev/null
 +++ b/Makefile
-@@ -0,0 +1,16 @@
+@@ -0,0 +1,15 @@
 +CC?=gcc
 +CFLAGS?=-O2 -march=native
-+CFLAGS_SURPRESS_WARNING=-Wno-format-security
 +LDFLAGS=-lm -lalleg
 +
 +SOURCE=$(wildcard *.c)
 +OBJECTS=$(patsubst %.c,%.o,$(SOURCE))
 +DEPENDENCY=$(wildcard *.h) Makefile
 +
-+all: butterfly
++all: white-butterfly
 +
-+butterfly: $(OBJECTS)
++white-butterfly: $(OBJECTS)
 +	$(CC) $^ $(LDFLAGS) -o $@
 +
 +%.o: %.c $(DEPENDENCY)
-+	$(CC) $< $(CFLAGS) $(CFLAGS_SURPRESS_WARNING) -c -o $@
++	$(CC) $< $(CFLAGS) -c -o $@
 diff --git a/display_init.c b/display_init.c
 index c6dcd8f..f654c27 100644
 --- a/display_init.c
@@ -45,7 +44,7 @@ index c6dcd8f..f654c27 100644
  
  
 diff --git a/input.c b/input.c
-index 956830f..ff05e20 100644
+index 956830f..4385ac9 100644
 --- a/input.c
 +++ b/input.c
 @@ -3,6 +3,7 @@
@@ -69,6 +68,15 @@ index 956830f..ff05e20 100644
    strcat(sfile, ".bmp");
    save_bitmap(sfile, scrshot_bmp, palet);
    rectfill(screen, 100, 0, 700, 0, COL_WHITE);
+@@ -2259,7 +2264,7 @@ void jstick_calibrate(void)
+ 
+       msg = calibrate_joystick_name(0);
+ 
+-      textprintf_centre_ex(screen, font, 320, 170, -1, -1, msg);
++      textprintf_centre_ex(screen, font, 320, 170, -1, -1, "%s", msg);
+       textprintf_centre_ex(screen, font, 320, 200, -1, -1, "AND PRESS SPACE");
+ 
+       do
 diff --git a/main.c b/main.c
 index 85dfebf..2129ae2 100644
 --- a/main.c
@@ -104,6 +112,54 @@ index 85dfebf..2129ae2 100644
     }
  #else
     set_config_file("init.txt");
+diff --git a/menu.c b/menu.c
+index a076fab..2997b5e 100644
+--- a/menu.c
++++ b/menu.c
+@@ -770,7 +770,7 @@ void key_box(const char ktext [], int command)
+  rectfill(display, 200, 240, 400, 290, COL_OUTLINE);
+  rect(display, 201, 241, 399, 289, COL_COL1);
+ 
+- textprintf_centre_ex(display, font, 300, 257, -1, -1, ktext);
++ textprintf_centre_ex(display, font, 300, 257, -1, -1, "%s", ktext);
+ 
+  vsync();
+  blit(display, screen, 0, 0, 100, 0, 600, 600);
+@@ -1432,7 +1432,7 @@ char ftext [8] [9] [150] =
+  rect(display, TITLE_X - 80, TITLE_Y - 0, TITLE_X + 80, TITLE_Y + 30, TRANS_BLUE3);
+  rect(display, TITLE_X - 81, TITLE_Y - 1, TITLE_X + 81, TITLE_Y + 31, TRANS_BLUE2);
+ 
+- textprintf_centre_ex(display, font, TITLE_X, TITLE_Y + 10, -1, -1, ftext [ship_chosen] [0]);
++ textprintf_centre_ex(display, font, TITLE_X, TITLE_Y + 10, -1, -1, "%s", ftext [ship_chosen] [0]);
+ 
+ 
+  if (ship_chosen == 4 && options.unlock [arena.difficulty] == 0)
+@@ -1446,18 +1446,18 @@ char ftext [8] [9] [150] =
+  hline(display, 198, LINE1_Y + 30, 320, TRANS_BLUE3);
+  textprintf_ex(display, font, TEXT_X - 5, LINE1_Y + 20, -1, -1, "weapons");
+ 
+- textprintf_ex(display, font, TEXT_X, LINE1_Y + 40, -1, -1, ftext [ship_chosen] [1]);
+- textprintf_ex(display, font, TEXT_X, LINE1_Y + 55, -1, -1, ftext [ship_chosen] [2]);
+- textprintf_ex(display, font, TEXT_X, LINE1_Y + 70, -1, -1, ftext [ship_chosen] [3]);
++ textprintf_ex(display, font, TEXT_X, LINE1_Y + 40, -1, -1, "%s", ftext [ship_chosen] [1]);
++ textprintf_ex(display, font, TEXT_X, LINE1_Y + 55, -1, -1, "%s", ftext [ship_chosen] [2]);
++ textprintf_ex(display, font, TEXT_X, LINE1_Y + 70, -1, -1, "%s", ftext [ship_chosen] [3]);
+ // textprintf_ex(display, font, TEXT_X, LINE1_Y + 60, -1, -1, ftext [ship_chosen] [4]);
+ 
+  hline(display, 198, LINE1_Y + 110, 320, TRANS_BLUE3);
+  textprintf_ex(display, font, TEXT_X - 5, LINE1_Y + 100, -1, -1, "controls");
+ 
+- textprintf_ex(display, font, TEXT_X, LINE1_Y + 120, -1, -1, ftext [ship_chosen] [4]);
+- textprintf_ex(display, font, TEXT_X, LINE1_Y + 135, -1, -1, ftext [ship_chosen] [5]);
+- textprintf_ex(display, font, TEXT_X, LINE1_Y + 150, -1, -1, ftext [ship_chosen] [6]);
+- textprintf_ex(display, font, TEXT_X, LINE1_Y + 165, -1, -1, ftext [ship_chosen] [7]);
++ textprintf_ex(display, font, TEXT_X, LINE1_Y + 120, -1, -1, "%s", ftext [ship_chosen] [4]);
++ textprintf_ex(display, font, TEXT_X, LINE1_Y + 135, -1, -1, "%s", ftext [ship_chosen] [5]);
++ textprintf_ex(display, font, TEXT_X, LINE1_Y + 150, -1, -1, "%s", ftext [ship_chosen] [6]);
++ textprintf_ex(display, font, TEXT_X, LINE1_Y + 165, -1, -1, "%s", ftext [ship_chosen] [7]);
+   }
+ 
+  END_TRANS
 diff --git a/sound.c b/sound.c
 index be6c43e..3403c3d 100644
 --- a/sound.c
@@ -118,7 +174,7 @@ index be6c43e..3403c3d 100644
      exit(1); // don't bother with proper error handling yet. This should just disable sound.
     }
 diff --git a/stuff.c b/stuff.c
-index 372fd7e..b65a9f3 100644
+index 372fd7e..39eb585 100644
 --- a/stuff.c
 +++ b/stuff.c
 @@ -18,6 +18,7 @@ grand(n) - random number from 1 to n
@@ -155,6 +211,15 @@ index 372fd7e..b65a9f3 100644
  float lcos(int angle)
  {
   return cos_table [angle & 1023];
+@@ -179,7 +168,7 @@ int pulsate(int speed, int amount, int county)
+ void error_message_out(const char *errm)
+ {
+       set_gfx_mode(GFX_TEXT, 0, 0, 0, 0);
+-      allegro_message(errm);
++      allegro_message("%s", errm);
+       exit(1);
+ }
+ 
 diff --git a/stuff.h b/stuff.h
 index 5bc434c..7c3102d 100644
 --- a/stuff.h
