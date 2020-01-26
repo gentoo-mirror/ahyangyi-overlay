@@ -1,5 +1,4 @@
 app-eselect/eselect-lilypond-font 0.9: Manages lilypond font replacements
-app-text/pdftk 9999: 
 app-vim/youcompleteme 99999999: vim plugin: a code-completion engine for Vim
 dev-haskell/clash-ghc 0.7.2: CAES Language for Synchronous Hardware
 dev-haskell/clash-lib 0.7.1: CAES Language for Synchronous Hardware - As a Library
@@ -29,6 +28,6 @@ media-fonts/lilypond-gonville 20141025 99999999: Gonville fonts for lilypond
 media-gfx/afdko 2.5.65781: Adobe Font Development Kit for OpenType
 media-libs/libuninameslist 20170807 20180408: Library of unicode annotation data
 media-sound/lilypond 2.18.2 2.18.2-r2 2.18.2-r3 2.19.54 2.19.80-r1 2.19.83: GNU Music Typesetter
-net-im/qq 2.0.0_beta: Chat with millions of new friends on QQ.
+net-im/tencent-qq 2.0.0_beta1: Official Linux version of Tencent QQ
 net-misc/google-images-download 9999: Python Script for 'searching' and 'downloading' hundreds of Google images to the local hard disk!
 net-misc/networkmanager-l2tp 0.9.8.7: NetworkManager L2TP plugin
