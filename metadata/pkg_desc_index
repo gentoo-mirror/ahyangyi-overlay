@@ -33,3 +33,4 @@ media-sound/lilypond 2.18.2 2.18.2-r2 2.18.2-r3 2.19.54 2.19.80-r1 2.19.83 2.21.
 net-im/tencent-qq 2.0.0_beta1: Official Linux version of Tencent QQ
 net-misc/google-images-download 9999: Python Script for 'searching' and 'downloading' hundreds of Google images to the local hard disk!
 net-misc/networkmanager-l2tp 0.9.8.7: NetworkManager L2TP plugin
+sys-boot/refind 0.12.0: The UEFI Boot Manager by Rod Smith
