@@ -26,7 +26,7 @@ dev-util/apl 1.8: GNU APL is a free interpreter for the programming language APL
 games-arcade/garden-of-coloured-lights 1.02-r3: A musical shoot-em-up influenced by rRootage, Radiant Silvergun and Rez.
 games-arcade/overgod 1.0: For too long has humanity been ruled by cruel and disputatious gods! Fly through the various layers of the Celestial Oversphere to unseat those who control the universe.
 games-arcade/white-butterfly 1.1-r4: Shoot-em-up game with strange 8-bit pastel colours and partly random music. Three stages, five fighters, many hours of agonising frustration.
-media-fonts/lilypond-gonville 20141025 99999999: Gonville fonts for lilypond
+media-fonts/lilypond-gonville 20141025 20200703 99999999: Gonville fonts for lilypond
 media-gfx/afdko 2.5.65781: Adobe Font Development Kit for OpenType
 media-libs/libuninameslist 20170807 20180408: Library of unicode annotation data
 media-sound/lilypond 2.21.1-r1 2.21.4-r1: GNU Music Typesetter
