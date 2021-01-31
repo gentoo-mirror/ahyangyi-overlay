@@ -16,7 +16,6 @@ dev-haskell/th-desugar 1.6 1.7: Functions to desugar Template Haskell
 dev-haskell/unbound-generics 0.3.1: Support for programming with names and binders using GHC Generics
 dev-haskell/uu-interleaved 0.2.0.0: Providing an interleaving combinator for use with applicative/alternative style implementations
 dev-haskell/uu-parsinglib 2.9.1.1: Fast, online, error-correcting, monadic, applicative, merging, permuting, interleaving, idiomatic parser combinators
-dev-libs/caffe 9999: Deep learning framework by the BVLC
 dev-libs/cudnn 7.2.1.38.9.2 7.3.0.29.9.0 7.6.0.64.9.0 7.6.0.64.9.2 7.6.0.64.10.0 7.6.0.64.10.1: NVIDIA Accelerated Deep Learning on GPU library
 dev-python/discord-py 1.1.1: An API wrapper for Discord written in Python.
 dev-python/freetype-py 1.1 1.2.1 2.2.0: Python bindings for the freetype library
@@ -27,10 +26,8 @@ games-arcade/garden-of-coloured-lights 1.02-r3: A musical shoot-em-up influenced
 games-arcade/overgod 1.0: For too long has humanity been ruled by cruel and disputatious gods! Fly through the various layers of the Celestial Oversphere to unseat those who control the universe.
 games-arcade/white-butterfly 1.1-r4: Shoot-em-up game with strange 8-bit pastel colours and partly random music. Three stages, five fighters, many hours of agonising frustration.
 media-fonts/lilypond-gonville 20141025 20200703 99999999: Gonville fonts for lilypond
-media-gfx/afdko 2.5.65781: Adobe Font Development Kit for OpenType
 media-libs/libuninameslist 20170807 20180408: Library of unicode annotation data
 media-sound/lilypond 2.21.1-r1 2.21.4-r1: GNU Music Typesetter
 net-im/tencent-qq 2.0.0_beta1: Official Linux version of Tencent QQ
-net-misc/google-images-download 9999: Python Script for 'searching' and 'downloading' hundreds of Google images to the local hard disk!
 net-misc/networkmanager-l2tp 0.9.8.7: NetworkManager L2TP plugin
 sys-boot/refind 0.12.0: The UEFI Boot Manager by Rod Smith
