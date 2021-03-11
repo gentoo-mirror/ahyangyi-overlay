@@ -26,7 +26,6 @@ games-arcade/garden-of-coloured-lights 1.02-r3: A musical shoot-em-up influenced
 games-arcade/overgod 1.0: For too long has humanity been ruled by cruel and disputatious gods! Fly through the various layers of the Celestial Oversphere to unseat those who control the universe.
 games-arcade/white-butterfly 1.1-r4: Shoot-em-up game with strange 8-bit pastel colours and partly random music. Three stages, five fighters, many hours of agonising frustration.
 media-fonts/lilypond-gonville 20141025 20200703 99999999: Gonville fonts for lilypond
-media-libs/allegro 9999: Cross-platform library aimed at video game and multimedia programming
 media-libs/libuninameslist 20170807 20180408: Library of unicode annotation data
 media-sound/lilypond 2.21.1-r1 2.21.4-r1 2.22.0: GNU Music Typesetter
 net-im/tencent-qq 2.0.0_beta1: Official Linux version of Tencent QQ
