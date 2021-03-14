@@ -1,11 +1,11 @@
 DEFINED_PHASES=install
-DEPEND=
+DEPEND=<media-sound/lilypond-2.22
 DESCRIPTION=Gonville fonts for lilypond
 EAPI=5
 HOMEPAGE=http://www.chiark.greenend.org.uk/~sgtatham/gonville/
 KEYWORDS=x86 amd64
 LICENSE=GPL-2
-RDEPEND=
+RDEPEND=<media-sound/lilypond-2.22
 SLOT=0
 SRC_URI=https://www.chiark.greenend.org.uk/~sgtatham/gonville/gonville-20200703.bedc4d7-old.tar.gz
-_md5_=9fb98f7827c6f03b01c425e8d79d1d7b
+_md5_=c1ef860fad8be7f582a497244bbe9000

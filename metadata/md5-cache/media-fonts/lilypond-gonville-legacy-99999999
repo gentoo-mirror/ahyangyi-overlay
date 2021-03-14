@@ -8,4 +8,4 @@ PROPERTIES=live
 RDEPEND=dev-lang/python media-gfx/fontforge media-gfx/potrace >=media-sound/lilypond-2.22
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=461c7e22315c9a21a5ea6ef3e9b610c1
+_md5_=d0760b19305a25418441b846e4c49bc3
