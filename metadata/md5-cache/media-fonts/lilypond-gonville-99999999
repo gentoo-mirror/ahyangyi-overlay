@@ -8,5 +8,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=dev-lang/python media-gfx/fontforge media-gfx/potrace >=media-sound/lilypond-2.22
 SLOT=0
-_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=461c7e22315c9a21a5ea6ef3e9b610c1
