@@ -1,0 +1,13 @@
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=install postinst postrm setup
+DESCRIPTION=A serif typeface designed by Eben Sorkin. From Google.
+EAPI=7
+HOMEPAGE=https://fonts.google.com/specimen/Merriweather
+INHERIT=font
+IUSE=X
+KEYWORDS=amd64 ppc ppc64 x86
+LICENSE=OFL-1.1
+SLOT=0
+SRC_URI=https://fonts.google.com/download?family=Merriweather -> merriweather-2.002.zip
+_eclasses_=font	0667878c2b594871023dd1833d05996f
+_md5_=510e3eb9cb6476d0fbfd53c1048a2731
