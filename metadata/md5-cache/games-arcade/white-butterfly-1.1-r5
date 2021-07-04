@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=media-libs/allegro:0
 SLOT=0
 SRC_URI=https://d1cxvcw9gjxu2x.cloudfront.net/projects/2187#Butterfly_v11_src.zip -> Butterfly_v11_src.zip https://d1cxvcw9gjxu2x.cloudfront.net/projects/2186#Butterfly_v11_win.zip -> Butterfly_v11_win.zip
-_md5_=083b604f882001fbb2e197ded017a6ba
+_md5_=77c30141348636fcc433e0d2ca2231a5
