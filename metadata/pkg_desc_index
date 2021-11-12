@@ -28,6 +28,7 @@ media-fonts/lilypond-gonville-legacy 20200703 99999999: Gonville fonts for lilyp
 media-fonts/merriweather 2.002: A serif typeface designed by Eben Sorkin. From Google.
 media-fonts/rambla 1.001: Rambla is a humanist sans for medium-long texts. By Martin Sommaruga.
 media-fonts/sil-gentium 6.001: Gentium Plus unicode font for Latin and Greek languages
+media-gfx/meshlab 2021.10: A system for processing and editing unstructured 3D triangular meshes
 media-libs/allegro 9999: Cross-platform library aimed at video game and multimedia programming
 media-sound/lilypond 2.21.1-r1 2.21.4-r1 2.22.0: GNU Music Typesetter
 net-im/tencent-qq 2.0.0_beta1: Official Linux version of Tencent QQ
