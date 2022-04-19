@@ -32,6 +32,7 @@ media-gfx/blender 2.93.5: 3D Creation/Animation/Publishing System
 media-gfx/meshlab 2021.10: A system for processing and editing unstructured 3D triangular meshes
 media-libs/allegro 9999: Cross-platform library aimed at video game and multimedia programming
 media-sound/lilypond 2.21.1-r1 2.21.4-r1 2.22.0 2.22.0-r1: GNU Music Typesetter
+media-sound/polyphone 2.3.1: A soundfont editor for quickly designing musical instruments.
 net-im/tencent-meeting 2.8.0.1: Official Linux version of Tencent QQ
 net-im/tencent-qq 2.0.0_beta1: Official Linux version of Tencent QQ
 net-misc/google-images-download 9999: Python Script for 'searching' and 'downloading' hundreds of Google images to the local hard disk!
