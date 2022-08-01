@@ -1,5 +1,4 @@
 app-eselect/eselect-lilypond-font 0.9: Manages lilypond font replacements
-app-vim/youcompleteme 99999999: vim plugin: a code-completion engine for Vim
 dev-haskell/clash-ghc 0.7.2: CAES Language for Synchronous Hardware
 dev-haskell/clash-lib 0.7.1: CAES Language for Synchronous Hardware - As a Library
 dev-haskell/clash-prelude 0.11.2: CAES Language for Synchronous Hardware - Prelude library
@@ -19,7 +18,6 @@ dev-haskell/uu-parsinglib 2.9.1.1: Fast, online, error-correcting, monadic, appl
 dev-libs/cudnn 7.2.1.38.9.2 7.3.0.29.9.0 7.6.0.64.9.0 7.6.0.64.9.2 7.6.0.64.10.0 7.6.0.64.10.1: NVIDIA Accelerated Deep Learning on GPU library
 dev-python/discord-py 1.7.3: An API wrapper for Discord written in Python.
 dev-python/freetype-py 2.2.0 2.3.0: Python bindings for the freetype library
-dev-python/ycmd 99999999: A code-completion & code-comprehension server
 dev-util/apl 1.8: GNU APL is a free interpreter for the programming language APL
 games-arcade/overgod 1.0: For too long has humanity been ruled by cruel and disputatious gods! Fly through the various layers of the Celestial Oversphere to unseat those who control the universe.
 games-arcade/white-butterfly 1.1-r5: Shoot-em-up game with strange 8-bit pastel colours and partly random music. Three stages, five fighters, many hours of agonising frustration.
@@ -30,7 +28,6 @@ media-fonts/rambla 1.001: Rambla is a humanist sans for medium-long texts. By Ma
 media-fonts/sil-gentium 6.001: Gentium Plus unicode font for Latin and Greek languages
 media-gfx/blender 2.93.5: 3D Creation/Animation/Publishing System
 media-gfx/meshlab 2021.10 2022.02: A system for processing and editing unstructured 3D triangular meshes
-media-libs/allegro 9999: Cross-platform library aimed at video game and multimedia programming
 media-libs/colmap 3.7: A general-purpose Structure-from-Motion and Multi-View Stereo pipeline.
 media-sound/lilypond 2.21.1-r1 2.21.4-r1 2.22.0 2.22.0-r1: GNU Music Typesetter
 media-sound/polyphone 2.3.1: A soundfont editor for quickly designing musical instruments.
