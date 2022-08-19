@@ -28,6 +28,7 @@ media-fonts/rambla 1.001: Rambla is a humanist sans for medium-long texts. By Ma
 media-fonts/sil-gentium 6.001: Gentium Plus unicode font for Latin and Greek languages
 media-gfx/blender 2.93.5: 3D Creation/Animation/Publishing System
 media-gfx/meshlab 2021.10 2022.02: A system for processing and editing unstructured 3D triangular meshes
+media-libs/allegro 9999: Cross-platform library aimed at video game and multimedia programming
 media-libs/colmap 3.7: A general-purpose Structure-from-Motion and Multi-View Stereo pipeline.
 media-sound/lilypond 2.21.1-r1 2.21.4-r1 2.22.0 2.22.0-r1: GNU Music Typesetter
 media-sound/polyphone 2.3.1: A soundfont editor for quickly designing musical instruments.
