@@ -1,4 +1,5 @@
 app-eselect/eselect-lilypond-font 0.9: Manages lilypond font replacements
+app-vim/youcompleteme 99999999: vim plugin: a code-completion engine for Vim
 dev-haskell/clash-ghc 0.7.2: CAES Language for Synchronous Hardware
 dev-haskell/clash-lib 0.7.1: CAES Language for Synchronous Hardware - As a Library
 dev-haskell/clash-prelude 0.11.2: CAES Language for Synchronous Hardware - Prelude library
@@ -18,6 +19,7 @@ dev-haskell/uu-parsinglib 2.9.1.1: Fast, online, error-correcting, monadic, appl
 dev-libs/cudnn 7.2.1.38.9.2 7.3.0.29.9.0 7.6.0.64.9.0 7.6.0.64.9.2 7.6.0.64.10.0 7.6.0.64.10.1: NVIDIA Accelerated Deep Learning on GPU library
 dev-python/discord-py 1.7.3: An API wrapper for Discord written in Python.
 dev-python/freetype-py 2.2.0 2.3.0: Python bindings for the freetype library
+dev-python/ycmd 99999999: A code-completion & code-comprehension server
 dev-util/apl 1.8: GNU APL is a free interpreter for the programming language APL
 games-arcade/overgod 1.0: For too long has humanity been ruled by cruel and disputatious gods! Fly through the various layers of the Celestial Oversphere to unseat those who control the universe.
 games-arcade/white-butterfly 1.1-r5: Shoot-em-up game with strange 8-bit pastel colours and partly random music. Three stages, five fighters, many hours of agonising frustration.
@@ -35,4 +37,5 @@ media-sound/polyphone 2.3.1: A soundfont editor for quickly designing musical in
 net-im/tencent-meeting 2.8.0.3: Tencent Meeting
 net-im/tencent-qq 2.0.0_beta1: Official Linux version of Tencent QQ
 net-misc/google-images-download 9999: Python Script for 'searching' and 'downloading' hundreds of Google images to the local hard disk!
+net-misc/networkmanager-l2tp 0.9.8.7: NetworkManager L2TP plugin
 sys-boot/refind 0.12.0: The UEFI Boot Manager by Rod Smith
