@@ -17,6 +17,7 @@ dev-haskell/unbound-generics 0.3.1: Support for programming with names and binde
 dev-haskell/uu-interleaved 0.2.0.0: Providing an interleaving combinator for use with applicative/alternative style implementations
 dev-haskell/uu-parsinglib 2.9.1.1: Fast, online, error-correcting, monadic, applicative, merging, permuting, interleaving, idiomatic parser combinators
 dev-libs/cudnn 7.2.1.38.9.2 7.3.0.29.9.0 7.6.0.64.9.0 7.6.0.64.9.2 7.6.0.64.10.0 7.6.0.64.10.1: NVIDIA Accelerated Deep Learning on GPU library
+dev-libs/pet 0.11.6: Polyhedral Extraction Tool
 dev-python/discord-py 1.7.3: An API wrapper for Discord written in Python.
 dev-python/freetype-py 2.2.0 2.3.0: Python bindings for the freetype library
 dev-python/ycmd 99999999: A code-completion & code-comprehension server
