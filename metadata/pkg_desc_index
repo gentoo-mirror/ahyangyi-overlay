@@ -19,7 +19,7 @@ dev-haskell/uu-parsinglib 2.9.1.1: Fast, online, error-correcting, monadic, appl
 dev-libs/barvinok 0.41.6: A library for counting the number of integer points in polytopes.
 dev-libs/cudnn 7.2.1.38.9.2 7.3.0.29.9.0 7.6.0.64.9.0 7.6.0.64.9.2 7.6.0.64.10.0 7.6.0.64.10.1: NVIDIA Accelerated Deep Learning on GPU library
 dev-libs/pet 0.11.6: Polyhedral Extraction Tool
-dev-libs/polylib 5.22.5 5.22.5-r20220304: Polyhedral library
+dev-libs/polylib 5.22.5 5.22.5.20220304: Polyhedral library
 dev-python/discord-py 1.7.3: An API wrapper for Discord written in Python.
 dev-python/freetype-py 2.2.0 2.3.0: Python bindings for the freetype library
 dev-python/ycmd 99999999: A code-completion & code-comprehension server
