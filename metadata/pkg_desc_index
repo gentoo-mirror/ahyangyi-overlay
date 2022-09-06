@@ -16,6 +16,7 @@ dev-haskell/th-desugar 1.6 1.7: Functions to desugar Template Haskell
 dev-haskell/unbound-generics 0.3.1: Support for programming with names and binders using GHC Generics
 dev-haskell/uu-interleaved 0.2.0.0: Providing an interleaving combinator for use with applicative/alternative style implementations
 dev-haskell/uu-parsinglib 2.9.1.1: Fast, online, error-correcting, monadic, applicative, merging, permuting, interleaving, idiomatic parser combinators
+dev-java/sbt 1.7.1: sbt is a build tool for Scala and Java projects that aims to do the basics well
 dev-libs/barvinok 0.41.6: A library for counting the number of integer points in polytopes.
 dev-libs/cudnn 7.2.1.38.9.2 7.3.0.29.9.0 7.6.0.64.9.0 7.6.0.64.9.2 7.6.0.64.10.0 7.6.0.64.10.1: NVIDIA Accelerated Deep Learning on GPU library
 dev-libs/pet 0.11.6: Polyhedral Extraction Tool
