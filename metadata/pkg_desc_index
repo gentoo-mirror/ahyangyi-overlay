@@ -42,5 +42,5 @@ net-im/tencent-meeting 2.8.0.3: Tencent Meeting
 net-im/tencent-qq 2.0.0_beta1: Official Linux version of Tencent QQ
 net-misc/google-images-download 9999: Python Script for 'searching' and 'downloading' hundreds of Google images to the local hard disk!
 net-misc/networkmanager-l2tp 0.9.8.7: NetworkManager L2TP plugin
-sci-electronics/verilator 4.226: The fast free Verilog/SystemVerilog simulator
+sci-electronics/verilator 4.034 4.226: The fast free Verilog/SystemVerilog simulator
 sys-boot/refind 0.12.0: The UEFI Boot Manager by Rod Smith
