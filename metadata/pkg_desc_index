@@ -19,6 +19,8 @@ dev-haskell/uu-parsinglib 2.9.1.1: Fast, online, error-correcting, monadic, appl
 dev-java/sbt 1.7.1: sbt is a build tool for Scala and Java projects that aims to do the basics well
 dev-libs/barvinok 0.41.6: A library for counting the number of integer points in polytopes.
 dev-libs/cudnn 7.2.1.38.9.2 7.3.0.29.9.0 7.6.0.64.9.0 7.6.0.64.9.2 7.6.0.64.10.0 7.6.0.64.10.1: NVIDIA Accelerated Deep Learning on GPU library
+dev-libs/libdatrie 0.2.13: Double-Array Trie Library
+dev-libs/libthai 0.1.29: A a set of Thai language support routines
 dev-libs/pet 0.11.6: Polyhedral Extraction Tool
 dev-libs/polylib 5.22.5 5.22.5.20220304: Polyhedral library
 dev-python/discord-py 1.7.3: An API wrapper for Discord written in Python.
@@ -38,6 +40,7 @@ media-libs/allegro 9999: Cross-platform library aimed at video game and multimed
 media-libs/colmap 3.7: A general-purpose Structure-from-Motion and Multi-View Stereo pipeline.
 media-sound/lilypond 2.21.1-r1 2.21.4-r1 2.22.0 2.22.0-r1: GNU Music Typesetter
 media-sound/polyphone 2.3.1: A soundfont editor for quickly designing musical instruments.
+net-im/dingtalk 1.4.0.20422 1.4.0.20829: Communication platform that supports video and audio conferencing
 net-im/tencent-meeting 2.8.0.3: Tencent Meeting
 net-im/tencent-qq 2.0.0_beta1: Official Linux version of Tencent QQ
 net-misc/google-images-download 9999: Python Script for 'searching' and 'downloading' hundreds of Google images to the local hard disk!
