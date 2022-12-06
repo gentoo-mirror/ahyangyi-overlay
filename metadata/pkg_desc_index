@@ -44,7 +44,7 @@ media-libs/colmap 3.7: A general-purpose Structure-from-Motion and Multi-View St
 media-sound/lilypond 2.21.1-r1 2.21.4-r1 2.22.0 2.22.0-r1: GNU Music Typesetter
 media-sound/polyphone 2.3.1: A soundfont editor for quickly designing musical instruments.
 net-im/dingtalk 1.4.0.20422 1.4.0.20829: Communication platform that supports video and audio conferencing
-net-im/tencent-meeting 2.8.0.3: Tencent Meeting
+net-im/tencent-meeting 3.12.0.400: Tencent Meeting
 net-im/tencent-qq 2.0.0_beta1: Official Linux version of Tencent QQ
 net-misc/google-images-download 9999: Python Script for 'searching' and 'downloading' hundreds of Google images to the local hard disk!
 net-misc/networkmanager-l2tp 0.9.8.7: NetworkManager L2TP plugin
