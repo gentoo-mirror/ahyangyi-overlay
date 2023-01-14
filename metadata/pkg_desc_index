@@ -1,5 +1,4 @@
 app-eselect/eselect-lilypond-font 0.9: Manages lilypond font replacements
-app-vim/youcompleteme 99999999: vim plugin: a code-completion engine for Vim
 dev-haskell/clash-ghc 0.7.2: CAES Language for Synchronous Hardware
 dev-haskell/clash-lib 0.7.1: CAES Language for Synchronous Hardware - As a Library
 dev-haskell/clash-prelude 0.11.2: CAES Language for Synchronous Hardware - Prelude library
@@ -25,10 +24,8 @@ dev-libs/pet 0.11.6: Polyhedral Extraction Tool
 dev-libs/polylib 5.22.5 5.22.5.20220304: Polyhedral library
 dev-python/conda 22.9.0: OS-agnostic, system-level binary package manager and ecosystem
 dev-python/conda-package-handling 1.9.0: Create and extract conda packages of various formats
-dev-python/discord-py 1.7.3: An API wrapper for Discord written in Python.
 dev-python/freetype-py 2.2.0 2.3.0: Python bindings for the freetype library
 dev-python/pycosat 0.6.3: Python bindings to picosat (a SAT solver)
-dev-python/ycmd 99999999: A code-completion & code-comprehension server
 dev-util/apl 1.8: GNU APL is a free interpreter for the programming language APL
 games-arcade/overgod 1.0: For too long has humanity been ruled by cruel and disputatious gods! Fly through the various layers of the Celestial Oversphere to unseat those who control the universe.
 games-arcade/white-butterfly 1.1-r5: Shoot-em-up game with strange 8-bit pastel colours and partly random music. Three stages, five fighters, many hours of agonising frustration.
