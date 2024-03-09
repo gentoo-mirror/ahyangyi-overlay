@@ -13,7 +13,7 @@ dev-python/pycosat 0.6.3: Python bindings to picosat (a SAT solver)
 dev-util/apl 1.8: GNU APL is a free interpreter for the programming language APL
 games-arcade/overgod 1.0: For too long has humanity been ruled by cruel and disputatious gods! Fly through the various layers of the Celestial Oversphere to unseat those who control the universe.
 games-arcade/white-butterfly 1.1-r5: Shoot-em-up game with strange 8-bit pastel colours and partly random music. Three stages, five fighters, many hours of agonising frustration.
-games-simulation/openttd-jgrpp 0.53.3 0.54.5 0.55.3 0.56.2 0.57.1: A patched version of OpenTTD
+games-simulation/openttd-jgrpp 0.53.3 0.54.5 0.55.3 0.56.2 0.57.1 0.58.1: A patched version of OpenTTD
 media-fonts/lilypond-gonville 20200703-r1 99999999: Gonville fonts for lilypond
 media-fonts/lilypond-gonville-legacy 20200703 99999999: Gonville fonts for lilypond
 media-fonts/merriweather 2.002: A serif typeface designed by Eben Sorkin. From Google.
