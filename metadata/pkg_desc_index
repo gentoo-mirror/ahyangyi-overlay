@@ -1,5 +1,4 @@
 app-eselect/eselect-lilypond-font 0.9: Manages lilypond font replacements
-dev-java/sbt 1.7.1: sbt is a build tool for Scala and Java projects that aims to do the basics well
 dev-libs/barvinok 0.41.6: A library for counting the number of integer points in polytopes.
 dev-libs/cudnn 7.2.1.38.9.2 7.3.0.29.9.0 7.6.0.64.9.0 7.6.0.64.9.2 7.6.0.64.10.0 7.6.0.64.10.1: NVIDIA Accelerated Deep Learning on GPU library
 dev-libs/libdatrie 0.2.13: Double-Array Trie Library
