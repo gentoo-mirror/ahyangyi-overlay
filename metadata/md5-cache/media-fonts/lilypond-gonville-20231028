@@ -7,5 +7,5 @@ KEYWORDS=x86 amd64
 LICENSE=GPL-2
 RDEPEND=>=media-sound/lilypond-2.22
 SLOT=0
-SRC_URI=https://www.chiark.greenend.org.uk/~sgtatham/gonville/gonville-20200703.bedc4d7.tar.gz
-_md5_=4fcb94f8724d1cdd8a58864c47ce8676
+SRC_URI=https://www.chiark.greenend.org.uk/~sgtatham/gonville/gonville-20231028.4ec6d4f.tar.gz
+_md5_=f0a0b9413a2f845c3421fc8bb8f84588

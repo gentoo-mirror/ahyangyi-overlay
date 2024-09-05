@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-lang/python media-gfx/fontforge media-gfx/potrace >=media-sound/lilypond-2.22
+DESCRIPTION=Gonville fonts for lilypond
+EAPI=7
+HOMEPAGE=http://www.chiark.greenend.org.uk/~sgtatham/gonville/
+INHERIT=git-r3
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=dev-lang/python media-gfx/fontforge media-gfx/potrace >=media-sound/lilypond-2.22
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=24811d1983c1f3194cef0447f77ebd78

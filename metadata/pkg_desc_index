@@ -12,7 +12,7 @@ dev-util/apl 1.8: GNU APL is a free interpreter for the programming language APL
 games-arcade/overgod 1.0: For too long has humanity been ruled by cruel and disputatious gods! Fly through the various layers of the Celestial Oversphere to unseat those who control the universe.
 games-arcade/white-butterfly 1.1-r5: Shoot-em-up game with strange 8-bit pastel colours and partly random music. Three stages, five fighters, many hours of agonising frustration.
 games-simulation/openttd-jgrpp 0.53.3 0.54.5 0.55.3 0.56.2 0.57.1 0.58.3 0.59.1 0.60.2 0.61.0: A patched version of OpenTTD
-media-fonts/lilypond-gonville 20200703-r1 99999999: Gonville fonts for lilypond
+media-fonts/lilypond-gonville 20200703-r1 20231028 99999999: Gonville fonts for lilypond
 media-fonts/lilypond-gonville-legacy 20200703 99999999: Gonville fonts for lilypond
 media-fonts/merriweather 2.002: A serif typeface designed by Eben Sorkin. From Google.
 media-fonts/rambla 1.001: Rambla is a humanist sans for medium-long texts. By Martin Sommaruga.
