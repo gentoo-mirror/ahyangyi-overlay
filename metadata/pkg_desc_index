@@ -21,7 +21,7 @@ media-fonts/sil-gentium 6.001: Gentium Plus unicode font for Latin and Greek lan
 media-gfx/meshlab 2022.02-r1 2023.12: A system for processing and editing unstructured 3D triangular meshes
 media-libs/allegro 9999: Cross-platform library aimed at video game and multimedia programming
 media-libs/colmap 3.7: A general-purpose Structure-from-Motion and Multi-View Stereo pipeline.
-media-sound/lilypond 2.21.1-r1 2.21.4-r1 2.22.0 2.22.0-r1 2.24.0 2.24.3 2.24.4: GNU Music Typesetter
+media-sound/lilypond 2.21.1-r1 2.21.4-r1 2.22.0 2.22.0-r1 2.24.0 2.24.3 2.24.4 2.24.4-r100: GNU Music Typesetter
 media-sound/polyphone 2.3.1: A soundfont editor for quickly designing musical instruments.
 net-im/dingtalk 1.4.0.20422 1.4.0.20829 1.4.0.20909-r1 1.6.0.230309: Communication platform that supports video and audio conferencing
 net-im/tencent-qq 2.0.0_beta1 3.0.0_beta1_p571: The new version of the official linux-qq
