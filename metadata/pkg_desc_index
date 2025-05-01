@@ -6,7 +6,6 @@ dev-libs/libthai 0.1.29: A a set of Thai language support routines
 dev-libs/pet 0.11.6: Polyhedral Extraction Tool
 dev-libs/polylib 5.22.5 5.22.5.20220304: Polyhedral library
 dev-python/conda-package-handling 1.9.0: Create and extract conda packages of various formats
-dev-python/freetype-py 2.2.0 2.3.0: Python bindings for the freetype library
 dev-python/pycosat 0.6.3: Python bindings to picosat (a SAT solver)
 dev-util/apl 1.8: GNU APL is a free interpreter for the programming language APL
 games-arcade/overgod 1.0: For too long has humanity been ruled by cruel and disputatious gods! Fly through the various layers of the Celestial Oversphere to unseat those who control the universe.
