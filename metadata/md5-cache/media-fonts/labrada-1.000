@@ -1,0 +1,13 @@
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=install postinst postrm setup unpack
+DESCRIPTION=Labrada is a typeface family designed by Mercedes Jáuregui.
+EAPI=7
+HOMEPAGE=https://fonts.google.com/specimen/Labrada
+INHERIT=font
+IUSE=X
+KEYWORDS=amd64 ppc ppc64 x86
+LICENSE=OFL-1.1
+SLOT=0
+SRC_URI=https://github.com/google/fonts/raw/5ecbfea181adb637a32f19860753e679f1114024/ofl/labrada/Labrada%5Bwght%5D.ttf -> Labrada-1.000.ttf https://github.com/google/fonts/raw/5ecbfea181adb637a32f19860753e679f1114024/ofl/labrada/Labrada-Italic%5Bwght%5D.ttf -> Labrada-Italic-1.000.ttf
+_eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb
+_md5_=45244f0135e5afbb0b2b553c4818bc77
