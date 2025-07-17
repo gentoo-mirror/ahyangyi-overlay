@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Reworked base graphics set for OpenTTD
+EAPI=8
+HOMEPAGE=https://github.com/OpenTTD/OpenGFX2
+IUSE=+normal_zoom +extra_zoom
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=GPL-2
+REQUIRED_USE=|| ( normal_zoom extra_zoom )
+SLOT=0
+SRC_URI=normal_zoom? ( https://github.com/OpenTTD/OpenGFX2/releases/download/v0.7/opengfx2_8.tar -> opengfx2-bin-0.7_8.tar ) extra_zoom? ( https://github.com/OpenTTD/OpenGFX2/releases/download/v0.7/opengfx2_32ez.tar -> opengfx2-bin-0.7_32ez.tar )
+_md5_=0ee4d7ff823eaad690718982289f77f7
