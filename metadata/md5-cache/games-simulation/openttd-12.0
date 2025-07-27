@@ -1,6 +1,6 @@
 BDEPEND=>=games-util/grfcodec-6.0.6_p20210310 virtual/pkgconfig app-alternatives/ninja >=dev-build/cmake-3.20.5
 DEFINED_PHASES=compile configure install postinst postrm preinst prepare test
-DEPEND=dedicated? ( acct-group/openttd acct-user/openttd app-misc/dtach ) !dedicated? ( allegro? ( media-libs/allegro:5 ) fluidsynth? ( media-sound/fluidsynth ) icu? ( dev-libs/icu-layoutex:= dev-libs/icu-le-hb >=dev-libs/icu-58.1:= ) sdl? ( media-libs/libsdl2[sound,video] ) truetype? ( media-libs/fontconfig media-libs/freetype:2 sys-libs/zlib:= ) ) lzma? ( app-arch/xz-utils ) lzo? ( dev-libs/lzo:2 ) png? ( media-libs/libpng:= ) zlib? ( sys-libs/zlib:= )
+DEPEND=dedicated? ( acct-group/openttd acct-user/openttd app-misc/dtach ) !dedicated? ( allegro? ( media-libs/allegro:5 ) fluidsynth? ( media-sound/fluidsynth ) icu? ( >=dev-libs/icu-58.1:= media-libs/harfbuzz ) sdl? ( media-libs/libsdl2[sound,video] ) truetype? ( media-libs/fontconfig media-libs/freetype:2 sys-libs/zlib:= ) ) lzma? ( app-arch/xz-utils ) lzo? ( dev-libs/lzo:2 ) png? ( media-libs/libpng:= ) zlib? ( sys-libs/zlib:= )
 DESCRIPTION=A clone of Transport Tycoon Deluxe
 EAPI=8
 HOMEPAGE=https://www.openttd.org/
@@ -10,9 +10,9 @@ IUSE=allegro cpu_flags_x86_sse debug dedicated +fluidsynth icu +lzma lzo +openme
 KEYWORDS=amd64 ~arm64 ~ppc64 ~x86
 LICENSE=GPL-2
 PDEPEND=!dedicated? ( openmedia? ( >=games-misc/openmsx-0.4.0 >=games-misc/opensfx-1.0.1 ) ) openmedia? ( >=games-misc/opengfx-0.6.1 ) timidity? ( media-sound/timidity++ )
-RDEPEND=dedicated? ( acct-group/openttd acct-user/openttd app-misc/dtach ) !dedicated? ( allegro? ( media-libs/allegro:5 ) fluidsynth? ( media-sound/fluidsynth ) icu? ( dev-libs/icu-layoutex:= dev-libs/icu-le-hb >=dev-libs/icu-58.1:= ) sdl? ( media-libs/libsdl2[sound,video] ) truetype? ( media-libs/fontconfig media-libs/freetype:2 sys-libs/zlib:= ) ) lzma? ( app-arch/xz-utils ) lzo? ( dev-libs/lzo:2 ) png? ( media-libs/libpng:= ) zlib? ( sys-libs/zlib:= )
+RDEPEND=dedicated? ( acct-group/openttd acct-user/openttd app-misc/dtach ) !dedicated? ( allegro? ( media-libs/allegro:5 ) fluidsynth? ( media-sound/fluidsynth ) icu? ( >=dev-libs/icu-58.1:= media-libs/harfbuzz ) sdl? ( media-libs/libsdl2[sound,video] ) truetype? ( media-libs/fontconfig media-libs/freetype:2 sys-libs/zlib:= ) ) lzma? ( app-arch/xz-utils ) lzo? ( dev-libs/lzo:2 ) png? ( media-libs/libpng:= ) zlib? ( sys-libs/zlib:= )
 REQUIRED_USE=!dedicated? ( || ( allegro sdl ) )
 SLOT=0
 SRC_URI=https://cdn.openttd.org/openttd-releases/12.0/openttd-12.0-source.tar.xz
 _eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a	xdg	3ef49a87c52c8b77c476351195dfe575
-_md5_=50f7f9c3fa655d76c55e3edf7922b565
+_md5_=789c3d70d512e73a4b9b2c69943886a6
