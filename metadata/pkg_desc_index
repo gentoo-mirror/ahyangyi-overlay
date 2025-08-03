@@ -26,4 +26,5 @@ net-im/dingtalk 1.4.0.20422 1.4.0.20829 1.4.0.20909-r1 1.6.0.230309: Communicati
 net-im/tencent-qq 3.2.18_p250724: The new version of the official linux-qq
 net-misc/networkmanager-l2tp 0.9.8.7: NetworkManager L2TP plugin
 sci-electronics/verilator 4.034 4.226: The fast free Verilog/SystemVerilog simulator
+sys-apps/udev-hid-bpf 2.1.0_p20240704: An automatic HID-BPF loader based on udev events
 sys-boot/refind 0.12.0: The UEFI Boot Manager by Rod Smith
