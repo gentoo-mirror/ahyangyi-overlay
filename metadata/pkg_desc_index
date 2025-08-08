@@ -11,6 +11,7 @@ games-arcade/white-butterfly 1.1-r5: Shoot-em-up game with strange 8-bit pastel 
 games-misc/opengfx2-bin 0.7: Reworked base graphics set for OpenTTD
 games-simulation/openttd 12.0: A clone of Transport Tycoon Deluxe
 games-simulation/openttd-jgrpp 0.53.3 0.54.5 0.55.3 0.56.2 0.57.1 0.58.3 0.59.1 0.60.2 0.61.0 0.62.0 0.63.2 0.64.1 0.65.1 0.65.2 0.65.3 0.65.4: A patched version of OpenTTD
+games-util/nml 0.8.0: Compiler of NML files into GRF/NFO files
 media-fonts/labrada 1.000: Labrada is a typeface family designed by Mercedes Jáuregui.
 media-fonts/lilypond-gonville 20200703-r1 20231028 99999999: Gonville fonts for lilypond
 media-fonts/lilypond-gonville-legacy 20200703 99999999: Gonville fonts for lilypond
